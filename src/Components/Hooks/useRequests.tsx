@@ -35,7 +35,7 @@ export const RequestsProvider: React.FC<{ children: React.ReactNode }> = ({
 
   const dataUrl = "http://localhost:3005/constructors"; // URL для загрузки данных конструкторов
   const requestsUrl = "http://localhost:3005/requests"; // URL для загрузки данных запросов
-  const localJsonPath = "/DB.json";                     // Путь к локальному JSON-файлу
+  const localJsonPath = `${process.env.PUBLIC_URL}/DB.json`; // Путь к локальному JSON-файлу
 
   const fetchRequests = async () => {
     setLoading(true);
