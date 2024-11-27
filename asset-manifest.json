@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BravoSoftTZ/static/css/main.20b953d1.css",
+    "main.js": "/BravoSoftTZ/static/js/main.c0e608e9.js",
+    "static/js/453.465cf20b.chunk.js": "/BravoSoftTZ/static/js/453.465cf20b.chunk.js",
+    "index.html": "/BravoSoftTZ/index.html",
+    "main.20b953d1.css.map": "/BravoSoftTZ/static/css/main.20b953d1.css.map",
+    "main.c0e608e9.js.map": "/BravoSoftTZ/static/js/main.c0e608e9.js.map",
+    "453.465cf20b.chunk.js.map": "/BravoSoftTZ/static/js/453.465cf20b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20b953d1.css",
+    "static/js/main.c0e608e9.js"
+  ]
+}
