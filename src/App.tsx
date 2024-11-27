@@ -7,7 +7,7 @@ import { Header } from './Components/Header/Header';
 
 interface User {
   name: string;
-  login: string; // Важно для запроса, если вам нужно будет использовать логин
+  login: string;
   password: string;
 }
 
