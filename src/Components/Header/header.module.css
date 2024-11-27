@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #212d3a;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.logoutButton {
+  padding: 8px 12px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.logoutButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

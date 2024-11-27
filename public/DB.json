@@ -1,0 +1,69 @@
+{
+  "constructors": [
+    {
+      "id": 1,
+      "name": "Иванов И. И.",
+      "login": "Ivanovii",
+      "password": "ivanov123"
+    },
+    {
+      "id": 2,
+      "name": "Петров П. П.",
+      "login": "Petrovpp",
+      "password": "petrov123"
+    },
+    {
+      "id": 3,
+      "name": "Сидоров С. С.",
+      "login": "Sidorovss",
+      "password": "sidorov123"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "constructorId": 1,
+      "documentName": "ГОСТ 123"
+    },
+    {
+      "id": 2,
+      "constructorId": 1,
+      "documentName": "ГОСТ Р 125"
+    },
+    {
+      "id": 3,
+      "constructorId": 1,
+      "documentName": "ГОСТ РВ 0009"
+    },
+    {
+      "id": 4,
+      "constructorId": 2,
+      "documentName": "ГОСТ 123"
+    },
+    {
+      "id": 5,
+      "constructorId": 2,
+      "documentName": "ГОСТ 456"
+    },
+    {
+      "id": 6,
+      "constructorId": 2,
+      "documentName": "ГОСТ РВ 0009"
+    },
+    {
+      "id": 7,
+      "constructorId": 3,
+      "documentName": "ГОСТ Р 125"
+    },
+    {
+      "id": 8,
+      "constructorId": 3,
+      "documentName": "ГОСТ 789"
+    },
+    {
+      "id": 9,
+      "constructorId": 3,
+      "documentName": "ГОСТ 456"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.all_buttons {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  width: 200px;
+  font-size: 16px;
+  transition: all 0.1s ease-in-out;
+}
+
+.all_buttons:hover {
+  cursor: pointer;
+  background-color: #1ecf27;
+}
+
+.all_buttons:active {
+  background-color: #1ecf27;
+  transform: scale(0.95);
+}
+
+.all_buttons:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #ccc;
+}
